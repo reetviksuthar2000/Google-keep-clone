@@ -1,0 +1,62 @@
+.main_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    height: 11%;
+    border-bottom: 0.5px solid grey;
+}
+.logo{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    margin-left: 10%;
+}
+.logo p{
+    margin-left: 6%;
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    width: 56%;
+}
+.search_bar input{
+    height: 20px;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+    background-image: url("../assets/icons/searchicon\ \(2\).png");
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 25px;
+    padding: 10px 10px 10px 50px;
+    background-size: 30px;
+    background-position-x: 13px;
+    background-position-y: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+.create_note_btn{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 84%;
+    right: 8%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: rgba(255, 123, 0, 0.877);
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        justify-content: space-around;
+    }
+}
